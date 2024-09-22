@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import
 
 import 'package:flutter/material.dart';
+import 'package:flutter_components/components/animated_liquid_swipable_pages.dart';
 import 'package:flutter_components/components/custom_animated_crousel_scroll.dart';
 import 'package:flutter_components/components/custom_animated_card.dart';
 import 'package:flutter_components/components/custom_animated_dialogbox.dart';
@@ -55,7 +56,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: CustomInstagramLikeButton(),
+      home: AnimatedLiquidSwipablePage(),
     );
   }
 }
